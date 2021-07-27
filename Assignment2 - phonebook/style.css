@@ -1,0 +1,67 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 700px;
+    margin: 20px auto;
+    max-height: 469px;
+    overflow-y:auto;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);;
+    box-shadow: 20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+}
+dl div{
+    padding :30px 30px 0;
+}
+dt,dd{
+    padding :10px 20px;
+}
+dt{ 
+    position: -webkit-sticky;
+    position: sticky;
+    border-radius: 5px;
+    top: -1px;
+    box-shadow: 0px 5px 10px rgb(226, 226, 226);
+    font-weight: 600;
+    font-size: 28px;
+    color: rgb(19, 19, 19);
+}
+#A,#F{
+    background-color: rgb(236, 232, 168);
+}
+#B,#G{
+    background-color: rgb(168, 200, 236);
+}
+#C,#H{
+    background-color: rgb(248, 191, 215);
+}
+#D,#I{
+    background-color: rgb(215, 236, 168);
+}
+#E,#J{
+    background-color: rgb(236, 168, 168);
+}
+dd{
+   padding-left: 45px; 
+   font-size: 22px;
+}
+dd + dd{
+    border-top: 1px solid rgb(206, 206, 206);
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(37, 83, 151);
+}
+
+span{
+    font-size: 22px;
+    color: black;
+}
