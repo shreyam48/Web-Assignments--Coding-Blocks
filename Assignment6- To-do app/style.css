@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    font-weight: 600;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+.left{
+    width: 82%;
+    background: #BBCCD2;
+    background: url(https://cdn.wallpapersafari.com/92/51/okBy9U.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 220px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"]{
+    width:100%;
+    border-radius: 3rem;
+    border:0;
+    outline: 0;
+    background-color:#f5f9ff;
+    box-shadow: 4.5px 6px black;
+    padding: .80rem 2rem;
+    color:#223146;
+    font-size: 1.2rem;
+}
+input::placeholder{
+    color: #b1c4da;
+}
+input:active, input:focus{
+    border-radius: 3rem;
+    border: 2px solid #223146;
+}
+input::placeholder{
+    color: #909FB0;
+}
+.top button{
+    margin:auto 0 auto -47px;
+    border-radius: 50%;
+    width: 37px; height: 37px;
+    border: none;
+    outline: 0;
+    background-color: #5D7189;
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    padding: 30px;
+    padding-right: 0;
+    overflow-y: auto;
+}
+.bottom::-webkit-scrollbar {
+    width: .3rem;
+    color:black;
+}
+ 
+.bottom::-webkit-scrollbar-track {
+    border-radius:2rem;
+}
+ 
+.bottom::-webkit-scrollbar-thumb {
+    backdrop-filter: blur(7px) saturate(166%);
+    -webkit-backdrop-filter: blur(7px) saturate(166%);
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+  outline: 1px solid darkgrey;
+}
+.item{
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoItem{
+    width: 550px;
+    outline: none;
+    border: none;
+    background-color: rgb(220, 232, 255);
+    padding: 0.70rem 1.8rem;
+    margin-bottom: .7rem;
+    border-radius: .5rem;
+    border:2px solid #223146;
+    border-left: 8px solid #223146;
+    margin-right: 10px;
+}
+.todoItem:active, .todoItem:focus{
+    border-radius: .5rem;
+    border:2px solid #000000;
+    border-left: 8px solid #000000;
+}
+.item button{
+    color: #F5F5F5;
+    background: #142031;
+    border:0;
+    font-size: 14px;
+    border-bottom: 2px solid #F5F5F5;
+    padding: 0.65rem;
+    margin-top: -10px;
+}
+.item button:hover{
+    color: rgb(243, 22, 88);
+}
+
+.right{
+    background-color: #F5F5F5;
+    display:flex;
+    width: 18%;
+    max-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
