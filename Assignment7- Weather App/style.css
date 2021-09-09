@@ -129,6 +129,8 @@ button{
     section{
         flex-direction: column ;
         height: auto;
+        width: 100vw;
+        margin: 0;
     }
     .weather-info{
         height: 60%;
